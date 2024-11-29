@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Outlander",
+    "image": "/imgs/Books/Outlander (Diana Gabaldon)/Outlander.jpg",
+    "description": "Outlander follows the story of Claire Randall, a World War II combat nurse who is mysteriously transported back in time to 18th century Scotland, where she becomes entangled in the Jacobite risings and a passionate love story with a Highland warrior.",
+    "genres": ["Historical Fiction", "Romance", "Time Travel"],
+    "year": 1991,
+    "author": {
+      "name": "Diana Gabaldon",
+      "bio": "Diana Gabaldon is a New York Times bestselling author known for her Outlander series."
+    },
+    "pdfLink": "https://static.fnac-static.com/multimedia/PT/pdf/9781784751371.pdf"
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "image": "/imgs/Books/Rich Dad Poor Dad (Robert Kiyosaki)/Rich Dad Poor Dad.jpg",
+    "description": "Rich Dad Poor Dad explores the differences between two fathers – one wealthy and one poor – and how their approaches to money and life shaped the author's financial understanding. It offers life-changing lessons on financial independence and investing.",
+    "genres": ["Personal Finance", "Self-Help", "Business"],
+    "year": 1997,
+    "author": {
+      "name": "Robert Kiyosaki",
+      "bio": "Robert Kiyosaki is an entrepreneur and author known for his financial education books."
+    },
+    "pdfLink": "https://www.docdroid.net/Incp3Kq/rich-dad-poor-dad-pdf"
+  },
+  {
+    "title": "Family Rich",
+    "image": "/imgs/Books/Rich Dad Poor Dad (Robert Kiyosaki)/Rich Dad Poor Dad.jpg",
+    "description": "Family Rich explores the differences between two fathers – one wealthy and one poor – and how their approaches to money and life shaped the author's financial understanding. It offers life-changing lessons on financial independence and investing.",
+    "genres": ["Personal Finance", "Self-Help", "Business"],
+    "year": 1997,
+    "author": {
+      "name": "Robert Kiyosaki",
+      "bio": "Robert Kiyosaki is an entrepreneur and author known for his financial education books."
+    },
+    "pdfLink": "https://www.docdroid.net/Incp3Kq/rich-dad-poor-dad-pdf"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "image": "/imgs/Books/To kill a Mockingbird (Harper Lee)/To kill a Mockingbird.jpg",
+    "description": "Set in the Depression-era South, To Kill a Mockingbird follows young Scout Finch as she witnesses her father, lawyer Atticus Finch, defend a black man accused of raping a white woman, exploring themes of racial injustice, moral complexity, and coming of age.",
+    "genres": ["Classic", "Coming-of-Age", "Social Justice"],
+    "year": 1960,
+    "author": {
+      "name": "Harper Lee",
+      "bio": "Harper Lee was an American novelist best known for her novel To Kill a Mockingbird."
+    },
+    "pdfLink": "https://www.raio.org/TKMFullText.pdf"
+  },
+  {
+    "title": "Becoming",
+    "image": "/imgs/Books/Becoming (Michelle Obama)/Becoming.jpg",
+    "description": "A deeply personal memoir by Michelle Obama, chronicling her roots in Chicago, her journey through Princeton and Harvard, her professional career, and her time as First Lady of the United States.",
+    "genres": ["Memoir", "Autobiography", "Political"],
+    "year": 2018,
+    "author": {
+      "name": "Michelle Obama",
+      "bio": "Michelle Obama is an American attorney and author, and the first African-American First Lady of the United States."
+    },
+    "pdfLink": "https://icrrd.com/public/media/15-05-2021-133541Becoming-Michelle-Obama.pdf"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "image": "/imgs/Books/The Catcher in the Rye (J.D. Salinger)/The Catcher in the Rye.jpg",
+    "description": "The Catcher in the Rye narrates the life of Holden Caulfield, a disillusioned teenager in New York City who is grappling with the pain of growing up and the complexities of adult society.",
+    "genres": ["Coming-of-Age", "Literary Fiction", "Classic"],
+    "year": 1951,
+    "author": {
+      "name": "J.D. Salinger",
+      "bio": "J.D. Salinger was an American writer known for his widely-read novel The Catcher in the Rye."
+    },
+    "pdfLink": "https://giove.isti.cnr.it/demo/eread/Libri/sad/Rye.pdf"
+  },
+  {
+    "title": "The Secret",
+    "image": "/imgs/Books/The Secret (Rhonda Byrne)/The Secret.jpg",
+    "description": "The Secret reveals the law of attraction, explaining how positive thinking and visualization can transform one's life. The book argues that by focusing on positive thoughts, individuals can attract wealth, health, and happiness, offering a philosophy of personal empowerment and manifestation.",
+    "genres": ["Self-Help", "Spirituality", "Personal Development"],
+    "year": 2006,
+    "author": {
+      "name": "Rhonda Byrne",
+      "bio": "Rhonda Byrne is an Australian television producer and author known for her work on The Secret."
+    },
+    "pdfLink": "https://www.slideshare.net/slideshow/the-secret-by-rhonda-byrne-english/251193822"
+  },
+  {
+    "title": "The Sand Child",
+    "image": "/imgs/Books/The sand child (Tahar Benjelloune)/The Sand Child.jpg",
+    "description": "A powerful novel exploring gender identity and societal expectations in Morocco, The Sand Child tells the story of Ahmed/Fatima, a girl raised as a boy to fulfill her father's desire for a male heir. The narrative delves into complex themes of gender, identity, and cultural constraints.",
+    "genres": ["Literary Fiction", "Cultural", "Philosophical"],
+    "year": 1985,
+    "author": {
+      "name": "Tahar Ben Jelloun",
+      "bio": "Tahar Ben Jelloun is a Moroccan-French author known for his works addressing social issues."
+    },
+    "pdfLink": "https://archive.org/details/sandchild00benj"
+  },
+  {
+    "title": "War and Peace",
+    "image": "/imgs/Books/War and Peace (Leo Tolstoy)/War and Peace (Leo Tolstoy).jpg",
+    "description": "An epic novel that intertwines the lives of Russian aristocratic families during the Napoleonic Era, exploring themes of love, war, history, and the philosophical meaning of life.",
+    "genres": ["Historical Fiction", "Classic", "Epic"],
+    "year": 1869,
+    "author": {
+      "name": "Leo Tolstoy",
+      "bio": "Leo Tolstoy was a Russian writer regarded as one of the greatest authors of all time."
+    },
+    "pdfLink": "https://antilogicalism.com/wp-content/uploads/2017/07/war-and-peace.pdf"
+  },
+  {
+    "title": "The Alchemist",
+    "image": "/imgs/Worl Books/The Alchemist (Paulo Coelho)/The Alchemist.jpg",
+    "description": "The Alchemist is an inspiring tale of Santiago, a shepherd boy who embarks on a journey to find a treasure hidden in the Egyptian pyramids, learning valuable life lessons about following one's dreams and listening to one's heart.",
+    "genres": ["Philosophical Fiction", "Adventure", "Spiritual"],
+    "year": 1988,
+    "author": {
+      "name": "Paulo Coelho",
+      "bio": "Paulo Coelho is a Brazilian author known for his novel The Alchemist and other inspirational works."
+    },
+    "pdfLink": "https://icrrd.com/public/media/15-05-2021-084550The-Alchemist-Paulo-Coelho.pdf"
+  },
+  {
+    "title": "The Great Gatsby",
+    "image": "/imgs/Worl Books/The Great Gatsby (F. Scott Fitzgerald)/The Great Gatsby.jpg",
+    "description": "Set in the Roaring Twenties, The Great Gatsby explores themes of wealth, love, and the American Dream through the eyes of Nick Carraway, a young man who is drawn into the world of his mysterious neighbor, Jay Gatsby.",
+    "genres": ["Classic", "Literary Fiction", "Romance"],
+    "year": 1925,
+    "author": {
+      "name": "F. Scott Fitzgerald",
+      "bio ": "F. Scott Fitzgerald was an American novelist and short story writer, widely regarded as one of the greatest American writers of the 20th century."
+    },
+    "pdfLink": "https://www.planetebook.com/free-ebooks/the-great-gatsby.pdf"
+  },
+  {
+    "title": "The Hobbit",
+    "image": "/imgs/Worl Books/The Hobbit (J.R.R. Tolkien)/The Hobbit.jpg",
+    "description": "The Hobbit is a high fantasy adventure that follows Bilbo Baggins, a hobbit who is swept into an epic quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, he encounters trolls, elves, goblins, and an enchanted ring.",
+    "genres": ["Fantasy", "Adventure", "Classic"],
+    "year": 1937,
+    "author": {
+      "name": "J.R.R. Tolkien",
+      "bio": "J.R.R. Tolkien was an English writer, professor, and philologist, best known for his works The Hobbit and The Lord of the Rings."
+    },
+    "pdfLink": "https://rsd2-alert-durden-reading-room.weebly.com/uploads/6/7/1/6/6716949/the_hobbit_tolkien.pdf"
+  }
+]

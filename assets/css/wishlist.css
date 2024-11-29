@@ -1,0 +1,415 @@
+:root {
+  --rich-black-fogra-29: hsl(225, 25%, 9%);
+  --rich-black-fogra-39: hsl(170, 21%, 5%);
+  --raisin-black: hsl(228, 13%, 15%);
+  --eerie-black: hsl(207, 19%, 11%);
+  --light-gray: hsl(0, 3%, 80%);
+  --gunmetal-1: hsl(229, 15%, 21%);
+  --gunmetal-2: hsl(216, 22%, 18%);
+  --gainsboro: hsl(0, 7%, 88%);
+  --citrine: hsl(57, 97%, 45%);
+  --xiketic: hsl(253, 21%, 13%);
+  --gray-x: hsl(0, 0%, 74%);
+  --white: hsl(0, 100%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --jet: hsl(0, 0%, 20%);
+  --red: hsl(0, 73%, 26%);
+
+  --ff-poppins: "Poppins", sans-serif;
+  --fs-1: 36px;
+  --fs-2: 32px;
+  --fs-3: 30px;
+  --fs-4: 24px;
+  --fs-5: 20px;
+  --fs-6: 18px;
+  --fs-7: 16px;
+  --fs-8: 15px;
+  --fs-9: 14px;
+  --fs-10: 13px;
+  --fs-11: 12px;
+  --fs-12: 11px;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --transition-1: 0.15s ease;
+  --transition-2: 0.25s ease-in;
+
+  --section-padding: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-poppins);
+}
+body {
+  color: var(--white);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: var(--raisin-black);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+  height: 50px;
+  width: 150px;
+  transition: transform var(--transition-2);
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  font-size: var(--fs-6);
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color var(--transition-1), color var(--transition-1);
+}
+
+nav a:hover {
+  color: var(--citrine);
+}
+
+nav a.active {
+  background-color: var(--citrine);
+  color: var(--raisin-black);
+  font-weight: var(--fw-700);
+}
+.navbar button {
+  padding: 5px 10px;
+  margin-left: 25px;
+  background-color: rgba(240, 248, 255, 0);
+  border: 1px solid var(--citrine);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.navbar i {
+  cursor: pointer;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.box label {
+  position: absolute;
+  left: 34px;
+  top: 14px;
+  color: #d1d5db;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-size: var(--fs-7);
+  opacity: 0.7;
+  font-size: 8px;
+}
+.box:hover label,
+.input:focus + label,
+.input:not(:placeholder-shown) + label {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.input {
+  width: 180px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid var(--citrine);
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-7);
+  color: var(--white);
+  outline: none;
+  padding: 0 15px;
+}
+
+.box:hover .input {
+  background: var(--gunmetal-1);
+}
+
+.box i {
+  position: absolute;
+  margin-left: 2px;
+  color: var(--citrine);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin-left: 0.75rem;
+}
+
+.box:hover i {
+  opacity: 0.7;
+  display: none;
+}
+.box i.active {
+  display: none;
+}
+footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+}
+
+.nav_footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+
+.nav_footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav_footer a:hover {
+  color: #ffc107;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left_footer ol {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.left_footer ol li {
+  cursor: pointer;
+  color: #ccc;
+}
+
+.left_footer ol li:hover {
+  color: #fff;
+}
+
+.left_footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.left_footer span {
+  color: #ffc107;
+}
+
+.right_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.social_icons {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.social_icons li {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.social_icons li:hover {
+  color: #ffc107;
+}
+
+.payment_methods {
+  display: flex;
+  gap: 10px;
+}
+
+.payment_methods img {
+  width: 200px;
+  height: 50px;
+  height: auto;
+}
+.wishlist-section {
+  background-color: var(--raisin-black);
+  padding: 2rem;
+}
+
+.wishlist-books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.wishlist-book {
+  background-color: var(--gunmetal-1);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wishlist-book:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.wishlist-book .image_container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.wishlist-book .image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.wishlist-book:hover .image_container img {
+  transform: scale(1.1);
+}
+
+.wishlist-book .book-details {
+  padding: 1rem;
+  text-align: center;
+}
+
+.wishlist-book h5 {
+  color: var(--white);
+  font-size: var(--fs-6);
+  margin-bottom: 0.5rem;
+}
+
+.wishlist-book p {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  margin-bottom: 1rem;
+}
+
+.wishlist-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.remove-from-wishlist {
+background-color: #ffc107;
+  border: 1px solid var(--red);
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.remove-from-wishlist:hover {
+  background-color: var(--red);
+  color: var(--white);
+  transform: scale(1.05);
+}
+
+
+
+.wishlist-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.view-details, .mark-as-read {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  transition: all 0.3s ease;
+  margin-left: -9px;
+}
+
+.view-details {
+  border-color: var(--citrine);
+  color: var(--black);
+}
+
+.view-details:hover {
+  background-color: var(--citrine);
+  color: var(--black);
+}
+
+.mark-as-read {
+  border-color: var(--light-gray);
+  color: var(--black);
+}
+
+.mark-as-read:hover {
+  background-color: var(--light-gray);
+  color: var(--black);
+}
+
+.mark-as-read i, .view-details i {
+  margin-right: 8px;
+}
+
+.mark-as-read.completed {
+  background-color: var(--green);
+  color: var(--white);
+  border-color: var(--green);
+}
