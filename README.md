@@ -56,7 +56,7 @@ How to Install/Upgrade
 
 Fresh Installation
 
-Clone the repository: git clone https://github.com/your-repo/library-books-v2.git.
+Clone the repository: git clone https://github.com/YASSIRXVHY/books-library-project-V2.
 
 Navigate to the project directory: cd library-books-v2.
 
